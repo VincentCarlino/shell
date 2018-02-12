@@ -1,0 +1,144 @@
+==4781== Invalid write of size 8
+==4781==    at 0x4014C8: arg_array (parse.c:66)
+==4781==    by 0x400C02: execute (shell.c:20)
+==4781==    by 0x40107C: main (shell.c:155)
+==4781==  Address 0x5204880 is 0 bytes inside a block of size 3 alloc'd
+==4781==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4781==    by 0x40149F: arg_array (parse.c:62)
+==4781==    by 0x400C02: execute (shell.c:20)
+==4781==    by 0x40107C: main (shell.c:155)
+==4781== 
+==4781== Invalid write of size 8
+==4781==    at 0x4014F7: arg_array (parse.c:69)
+==4781==    by 0x400C02: execute (shell.c:20)
+==4781==    by 0x40107C: main (shell.c:155)
+==4781==  Address 0x5204890 is 13 bytes after a block of size 3 alloc'd
+==4781==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4781==    by 0x40149F: arg_array (parse.c:62)
+==4781==    by 0x400C02: execute (shell.c:20)
+==4781==    by 0x40107C: main (shell.c:155)
+==4781== 
+==4782== Use of uninitialised value of size 8
+==4782==    at 0x4F06D60: execvpe (execvpe.c:50)
+==4782==    by 0x400ED9: execute_args (shell.c:92)
+==4782==    by 0x400DBA: execute (shell.c:42)
+==4782==    by 0x40107C: main (shell.c:155)
+==4782== 
+==4782== Use of uninitialised value of size 8
+==4782==    at 0x4EC3AB0: __GI_strchr (strchr.S:24)
+==4782==    by 0x4F06D88: execvpe (execvpe.c:57)
+==4782==    by 0x400ED9: execute_args (shell.c:92)
+==4782==    by 0x400DBA: execute (shell.c:42)
+==4782==    by 0x40107C: main (shell.c:155)
+==4782== 
+==4782== Use of uninitialised value of size 8
+==4782==    at 0x4C30A20: __GI_strchr (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4782==    by 0x4F06D88: execvpe (execvpe.c:57)
+==4782==    by 0x400ED9: execute_args (shell.c:92)
+==4782==    by 0x400DBA: execute (shell.c:42)
+==4782==    by 0x40107C: main (shell.c:155)
+==4782== 
+==4782== Use of uninitialised value of size 8
+==4782==    at 0x4C30F62: strlen (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4782==    by 0x4F06ED2: execvpe (execvpe.c:98)
+==4782==    by 0x400ED9: execute_args (shell.c:92)
+==4782==    by 0x400DBA: execute (shell.c:42)
+==4782==    by 0x40107C: main (shell.c:155)
+==4782== 
+==4782== Use of uninitialised value of size 8
+==4782==    at 0x4C30F74: strlen (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4782==    by 0x4F06ED2: execvpe (execvpe.c:98)
+==4782==    by 0x400ED9: execute_args (shell.c:92)
+==4782==    by 0x400DBA: execute (shell.c:42)
+==4782==    by 0x40107C: main (shell.c:155)
+==4782== 
+==4782== Conditional jump or move depends on uninitialised value(s)
+==4782==    at 0x4C32B1D: __GI_memcpy (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4782==    by 0x4F06F2A: execvpe (execvpe.c:123)
+==4782==    by 0x400ED9: execute_args (shell.c:92)
+==4782==    by 0x400DBA: execute (shell.c:42)
+==4782==    by 0x40107C: main (shell.c:155)
+==4782== 
+==4782== Conditional jump or move depends on uninitialised value(s)
+==4782==    at 0x4C32DDC: __GI_memcpy (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4782==    by 0x4F06F2A: execvpe (execvpe.c:123)
+==4782==    by 0x400ED9: execute_args (shell.c:92)
+==4782==    by 0x400DBA: execute (shell.c:42)
+==4782==    by 0x40107C: main (shell.c:155)
+==4782== 
+==4782== Conditional jump or move depends on uninitialised value(s)
+==4782==    at 0x4C32B7E: __GI_memcpy (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4782==    by 0x4F06F2A: execvpe (execvpe.c:123)
+==4782==    by 0x400ED9: execute_args (shell.c:92)
+==4782==    by 0x400DBA: execute (shell.c:42)
+==4782==    by 0x40107C: main (shell.c:155)
+==4782== 
+==4782== Conditional jump or move depends on uninitialised value(s)
+==4782==    at 0x4C32B8F: __GI_memcpy (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4782==    by 0x4F06F2A: execvpe (execvpe.c:123)
+==4782==    by 0x400ED9: execute_args (shell.c:92)
+==4782==    by 0x400DBA: execute (shell.c:42)
+==4782==    by 0x40107C: main (shell.c:155)
+==4782== 
+==4782== Conditional jump or move depends on uninitialised value(s)
+==4782==    at 0x4C32BA5: __GI_memcpy (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4782==    by 0x4F06F2A: execvpe (execvpe.c:123)
+==4782==    by 0x400ED9: execute_args (shell.c:92)
+==4782==    by 0x400DBA: execute (shell.c:42)
+==4782==    by 0x40107C: main (shell.c:155)
+==4782== 
+==4782== Use of uninitialised value of size 8
+==4782==    at 0x4C32D80: __GI_memcpy (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4782==    by 0x4F06F2A: execvpe (execvpe.c:123)
+==4782==    by 0x400ED9: execute_args (shell.c:92)
+==4782==    by 0x400DBA: execute (shell.c:42)
+==4782==    by 0x40107C: main (shell.c:155)
+==4782== 
+==4782== Use of uninitialised value of size 8
+==4782==    at 0x4C32D83: __GI_memcpy (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4782==    by 0x4F06F2A: execvpe (execvpe.c:123)
+==4782==    by 0x400ED9: execute_args (shell.c:92)
+==4782==    by 0x400DBA: execute (shell.c:42)
+==4782==    by 0x40107C: main (shell.c:155)
+==4782== 
+==4782== Conditional jump or move depends on uninitialised value(s)
+==4782==    at 0x4C32D8E: __GI_memcpy (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4782==    by 0x4F06F2A: execvpe (execvpe.c:123)
+==4782==    by 0x400ED9: execute_args (shell.c:92)
+==4782==    by 0x400DBA: execute (shell.c:42)
+==4782==    by 0x40107C: main (shell.c:155)
+==4782== 
+==4782== Syscall param execve(argv) points to unaddressable byte(s)
+==4782==    at 0x4F06777: execve (syscall-template.S:84)
+==4782==    by 0x4F06F8A: execvpe (execvpe.c:146)
+==4782==    by 0x400ED9: execute_args (shell.c:92)
+==4782==    by 0x400DBA: execute (shell.c:42)
+==4782==    by 0x40107C: main (shell.c:155)
+==4782==  Address 0x5204883 is 0 bytes after a block of size 3 alloc'd
+==4782==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4782==    by 0x40149F: arg_array (parse.c:62)
+==4782==    by 0x400C02: execute (shell.c:20)
+==4782==    by 0x40107C: main (shell.c:155)
+==4782== 
+==4781== 3 bytes in 1 blocks are definitely lost in loss record 3 of 15
+==4781==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4781==    by 0x40149F: arg_array (parse.c:62)
+==4781==    by 0x400C02: execute (shell.c:20)
+==4781==    by 0x40107C: main (shell.c:155)
+==4781== 
+==4781== 64 (32 direct, 32 indirect) bytes in 1 blocks are definitely lost in loss record 14 of 15
+==4781==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4781==    by 0x4015C4: parse (parse.c:107)
+==4781==    by 0x40106C: main (shell.c:154)
+==4781== 
+==4781== 143 (16 direct, 127 indirect) bytes in 1 blocks are definitely lost in loss record 15 of 15
+==4781==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4781==    by 0x401179: cons (list.c:70)
+==4781==    by 0x40127E: reverse1 (list.c:120)
+==4781==    by 0x401298: reverse1 (list.c:120)
+==4781==    by 0x401298: reverse1 (list.c:120)
+==4781==    by 0x401298: reverse1 (list.c:120)
+==4781==    by 0x4012BC: reverse (list.c:127)
+==4781==    by 0x401B35: tokens (tokens.c:97)
+==4781==    by 0x401052: main (shell.c:152)
+==4781== 
